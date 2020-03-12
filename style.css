@@ -9,40 +9,42 @@ body{
     height: 100%;
 }
 
+main{
+    width:60%;
+    margin: auto;
+}
+
 .rbox{
-    width: 150px;
-    height:150px;
+    width: 200px;
+    height:200px;
     margin: 25px;
     margin-left: 65px;
     border: 3px solid yellow;
     position: relative;
     background-image: url(roma.jpg);
     background-size: cover;
-
 }
 
 .cbox{
-    width: 150px;
-    height:150px;
+    width: 200px;
+    height:200px;
     margin: 25px;
     margin-left: 65px;
     border: 3px solid yellow;
     background-image: url(copenaghen.jpg);
     background-size: cover;
     position: relative;
-    box-shadow: -2px -2px 10px grey;
 }
 
 .tbox{
-    width: 150px;
-    height:150px;
+    width: 200px;
+    height:200px;
     margin: 25px;
     margin-left: 65px;
     border: 3px solid yellow;
     background-image: url(tokyo.jpg);
     background-size: cover;
     position: relative;
-    opacity: 0.6;
 }
 
 .testo{
