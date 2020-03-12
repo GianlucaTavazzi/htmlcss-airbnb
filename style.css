@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:purple;
+    height: 100%;
+}
+
+.rbox{
+    width: 150px;
+    height:150px;
+    margin: 25px;
+    margin-left: 65px;
+    border: 3px solid yellow;
+    position: relative;
+    background-image: url(roma.jpg);
+    background-size: cover;
+
+}
+
+.cbox{
+    width: 150px;
+    height:150px;
+    margin: 25px;
+    margin-left: 65px;
+    border: 3px solid yellow;
+    background-image: url(copenaghen.jpg);
+    background-size: cover;
+    position: relative;
+    box-shadow: -2px -2px 10px grey;
+}
+
+.tbox{
+    width: 150px;
+    height:150px;
+    margin: 25px;
+    margin-left: 65px;
+    border: 3px solid yellow;
+    background-image: url(tokyo.jpg);
+    background-size: cover;
+    position: relative;
+    opacity: 0.6;
+}
+
+.testo{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
